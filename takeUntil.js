@@ -11,21 +11,24 @@ for ( let i = 0 ; i < array.length ; i ++ ){
 return results;
 }
 
-const input = function (x) {
- if ( x < 0 ){
-   return false
- }
- return true
-}
-const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
-console.log(takeUntil(data1,input))
+// const input = function (x) {
+//  if ( x < 0 ){
+//    return false
+//  }
+//  return true
+// }
+// const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
+// console.log(takeUntil(data1,input))
 
 
-const results1 = takeUntil(data1, x => x < 0);
-console.log(results1);
+// const results1 = takeUntil(data1, x => x < 0);
+// console.log(results1);
 
-console.log('---');
+// console.log('---');
 
-const data2 = ["I've", "been", "to", "Hollywood", ",", "I've", "been", "to", "Redwood"];
-const results2 = takeUntil(data2, x => x === ',');
-console.log(results2);
+// const data2 = ["I've", "been", "to", "Hollywood", ",", "I've", "been", "to", "Redwood"];
+// const results2 = takeUntil(data2, x => x === ',');
+// console.log(results2);
+
+
+module.exports = takeUntil;
