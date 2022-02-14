@@ -9,15 +9,16 @@ const assertArraysEqual = require('./assertArraysEqual');
 const map = require('./map');
 const letterPositions = require("./letterPositions")
 
+/// using the Object shorthand syntax from ES6
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  flatten: flatten,
-  takeUntil : takeUntil,
-  eqArrays : eqArrays,
-  assertEqual : assertEqual,
-  assertArraysEqual : assertArraysEqual,
-  map : map,
-  letterPositions : letterPositions
+  head,
+  tail,
+  middle,
+  flatten,
+  takeUntil,
+  eqArrays,
+  assertEqual,
+  assertArraysEqual,
+  map,
+  letterPositions
 };
