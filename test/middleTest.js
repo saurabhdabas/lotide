@@ -20,7 +20,7 @@
 
 const assert = require("chai").assert;
 const middle = require ("../middle");
-const eqArrays = require("../eqArrays")
+
 
 describe("middle",()=>{
   it("it should pass",()=>{
