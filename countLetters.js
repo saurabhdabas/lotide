@@ -6,17 +6,17 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-const countLetters= function (allItems){
-  let results ={};
+const countLetters = function(allItems) {
+  let results = {};
   for (const item of allItems) {
-      if (results[item]) {
-        results[item] += 1;
-      } else {
-        results[item] = 1;
-      }
+    if (results[item]) {
+      results[item] += 1;
+    } else {
+      results[item] = 1;
+    }
   }
   return results;
-}
+};
 console.log(countLetters("LHL"));
 
 const result1 = countLetters("LHL");

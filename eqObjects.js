@@ -5,7 +5,7 @@ const assertEqual = function(actual, expected) {
     console.log(`🔴🔴🔴 Assertion Failed: ${actual} !== ${expected}`);
   }
 };
-const eqArrays = function (arr1,arr2) {
+const eqArrays = function(arr1,arr2) {
   if (arr1.length !== arr2.length) {
     return false;
   } else {
@@ -16,7 +16,7 @@ const eqArrays = function (arr1,arr2) {
     }
     return true;
   }
-}
+};
 
 // Returns true if both objects have identical keys with identical values.
 // Otherwise you get back a big fat false!
