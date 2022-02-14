@@ -1,6 +1,6 @@
 const assert = require("chai").assert;
-const eqArrays = require("../eqArrays");
-const assertArraysEqual = require("../assertArraysEqual")
+// const eqArrays = require("../eqArrays");
+// const assertArraysEqual = require("../assertArraysEqual")
 const letterPositions = require("../letterPositions");
 
 // assertArraysEqual(letterPositions("lighthouse in the house").e,[9, 16, 22]); // ----> Should Pass
