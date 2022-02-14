@@ -1,10 +1,11 @@
-const assertEqual = function(actual, expected) {
-  if (actual.length === expected.length) {
-    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`🔴🔴🔴 Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
+// const assertEqual = function(actual, expected) {
+//   if (actual.length === expected.length) {
+//     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
+//   } else {
+//     console.log(`🔴🔴🔴 Assertion Failed: ${actual} !== ${expected}`);
+//   }
+// };
+const assertEqual = require("./assertEqual")
 
 const tail = function(arr) {
   if (arr) {
@@ -15,4 +16,5 @@ const tail = function(arr) {
   }
   
 };
-assertEqual(tail(["Hello", "Lighthouse", "Labs"]),["Lighthouse", "Labs"]);
+
+module.exports = tail;
